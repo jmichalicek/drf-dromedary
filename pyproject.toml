@@ -50,6 +50,7 @@ dev = [
   "pyupgrade",
   "django-upgrade",
   "pytest-cov>=7.1.0",
+  "django-orjson>=1.1.0",
   { include-group = "test" },
 ]
 django52 = ["django>=5.2a1,<6"]
