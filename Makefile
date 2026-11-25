@@ -29,6 +29,7 @@ clean-pyc:
 
 lint:
 	uv run ruff check
+	uv run mypy .
 
 lint-fix:
 	uv run ruff check --fix
